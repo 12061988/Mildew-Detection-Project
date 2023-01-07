@@ -18,8 +18,15 @@ To save time in this process, the IT team suggested an ML system that is capable
 * 2 - The client is interested to predict if a cherry leaf is healthy or contains powdery mildew.
 
 
-## Hypothesis and how to validate?
-* Business understanding
+## Hypothesis and validation
+* We suspect mildew infected cherry leaves have unclear marks/signs, the mildew is light roughly-circular, powdery looking patches on young, susceptible leaves.
+
+* An Image Montage, shows that typically mildew infected leaves has white marks across. Average Image, Variability Image and Difference between Averages studies didn't reveal any clear pattern to differentiate one to another.
+
+
+
+## Business requirements map to the Data Visualizations and ML tasks
+* Business understanding (
 * Data understanding
 * Data preparation
 * Modelling
@@ -27,17 +34,32 @@ To save time in this process, the IT team suggested an ML system that is capable
 * Deployment
 
 
-## Rationale to map the business requirements to the Data Visualizations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualizations and ML tasks.
-
-
 ## ML Business Case
 * In the previous bullet, you potentially visualized a ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
 
 
 ## Dashboard Design
-* List all dashboard pages and its content, either block of information or widgets, like: buttons, checkbox, image, or any other item that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a give feature (for example, in the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type).
+Menu
+* Quick Project Summary: 
+  Powdery mildew of sweet and sour cherry is caused by Podosphaera clandestina, an obligate biotrophic fungus.
+  Mid- and late-season sweet cherry (Prunus avium) cultivars are commonly affected, rendering them unmarketable due to the covering of white fungal growth   on the cherry surface.
+  According to WSU, Season long disease control of both leaves and fruit is critical to minimize overall disease pressure in the orchardand consequently to   protect developing fruit from accumulating spores on their surfaces.
+
+* Cherry leave Visualizer:
+  The client is interested to have a study to visually differentiate a powdery mildew infected cherry leaf and healthy cherry leaf.
+  Difference between average image and variability image.
+  Differences between average powdery mildew infected and average healthy leaves.
+  Image montage.
+  
+* Mildew detection
+  The client is interested to tell whether a given leaf contains mildew or not.
+  The client can download the dataset of mildew infected cherry leaves and uninfected cherry leaves for live evaluation.
+  
+* Project Hypothesis
+  We suspect mildew infected cherry leaves have unclear marks/signs, the mildew is light roughly-circular, powdery looking patches on young, susceptible     leaves.
+  
+* ML Performance Metrics
+  Train, Validation and Test Set: Labels Frequencies
 
 
 ## Unfixed Bugs
