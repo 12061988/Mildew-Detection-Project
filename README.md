@@ -21,6 +21,8 @@ To save time in this process, the IT team suggested an ML system that is capable
 ## Hypothesis and validation
 * We suspect mildew infected cherry leaves have unclear marks/signs, the mildew is light roughly-circular, powdery looking patches on young, susceptible leaves.
 
+* A average image study can help to investigate it
+
 * An Image Montage, shows that typically mildew infected leaves has white marks across. Average Image, Variability Image and Difference between Averages studies didn't reveal any clear pattern to differentiate one to another.
 
 
@@ -39,17 +41,17 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 ## Dashboard Design
-Menu
+Menu on Streamlit Dashboard
 * Quick Project Summary: 
   Powdery mildew of sweet and sour cherry is caused by Podosphaera clandestina, an obligate biotrophic fungus.
   Mid- and late-season sweet cherry (Prunus avium) cultivars are commonly affected, rendering them unmarketable due to the covering of white fungal growth   on the cherry surface.
   According to WSU, Season long disease control of both leaves and fruit is critical to minimize overall disease pressure in the orchardand consequently to   protect developing fruit from accumulating spores on their surfaces.
 
 * Cherry leave Visualizer:
-  The client is interested to have a study to visually differentiate a powdery mildew infected cherry leaf and healthy cherry leaf.
-  Difference between average image and variability image.
-  Differences between average powdery mildew infected and average healthy leaves.
-  Image montage.
+   The client is interested to have a study to visually differentiate a powdery mildew infected cherry leaf and healthy cherry leaf.
+  - Checkbox1 Difference between average image and variability image.
+  - Checkbox2 Differences between average powdery mildew infected and average healthy leaves.
+  - Checkbox3 Image montage.
   
 * Mildew detection:
   The client is interested to tell whether a given leaf contains mildew or not.
