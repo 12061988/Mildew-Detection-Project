@@ -26,7 +26,7 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 ## Business requirements map to the Data Visualizations and ML tasks
-* Business understanding (
+* Business understanding 
 * Data understanding
 * Data preparation
 * Modelling
@@ -78,26 +78,22 @@ Menu
    
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries you used in the project and provide example(s) on how you used these libraries.
+* NumPy
+* Panda
+* SciPy
+* Matplotlib
+* Seaborn
+* Scikit learn
+* Tensorflow
 
 
 ## Credits 
 
-* In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
+Project forked from RobinGunarathna/Mildew-Detection-in-Cherry-Leaves-P5 (as Forking was the only one alternative to avoid bugs and technical issues due to Libraries installation) and from another branch I made my own project)
+ 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+The images used for the project were taken from Kaggle.
 
 
 
-## Acknowledgements (optional)
-* In case you would like to thank the people that provided support through this project.
