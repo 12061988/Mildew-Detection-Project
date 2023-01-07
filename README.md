@@ -51,14 +51,14 @@ Menu
   Differences between average powdery mildew infected and average healthy leaves.
   Image montage.
   
-* Mildew detection
+* Mildew detection:
   The client is interested to tell whether a given leaf contains mildew or not.
   The client can download the dataset of mildew infected cherry leaves and uninfected cherry leaves for live evaluation.
   
-* Project Hypothesis
+* Project Hypothesis:
   We suspect mildew infected cherry leaves have unclear marks/signs, the mildew is light roughly-circular, powdery looking patches on young, susceptible     leaves.
   
-* ML Performance Metrics
+* ML Performance Metrics:
   Train, Validation and Test Set: Labels Frequencies
 
 
