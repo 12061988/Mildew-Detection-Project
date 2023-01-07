@@ -27,7 +27,21 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 
-## Business requirements map to the Data Visualizations and ML tasks
+## Rationale to map the business requirements to the Data Visualizations and ML tasks
+
+Business Requirement 1: Data Visualization
+
+We will display the "mean" and "standard deviation" images for parasitized and uninfected leaves.
+We will display the difference between an average parasitized leaves and an average uninfected leaves.
+We will display a image montage for either parasitized or uninfected leaves.
+
+Business Requirement 2: Classification
+
+We want to predict if a given leaf is infected or not with mildew.
+We want to build a binary classifier and generate reports.
+
+Our general process in the following list
+
 * Business understanding 
 * Data understanding
 * Data preparation
@@ -37,21 +51,23 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualized a ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+
+* We want a ML model to predict if a leaf is infected with mildew or not, based on historical image data. It is a supervised model, a 2-class, single-label, classification model.
+* Our ideal outcome is provide the Farm team a faster and reliable diagnostic if a given leaf is infected or not with mildew.
 
 
-## Dashboard Design
+## Dashboard Design (Streamlit App User Interface)
 Menu on Streamlit Dashboard
 * Quick Project Summary 
   - Powdery mildew of sweet and sour cherry is caused by Podosphaera clandestina, an obligate biotrophic fungus.
   Mid- and late-season sweet cherry (Prunus avium) cultivars are commonly affected, rendering them unmarketable due to the covering of white fungal growth   on the cherry surface.
   - According to WSU, Season long disease control of both leaves and fruit is critical to minimize overall disease pressure in the orchardand consequently to   protect developing fruit from accumulating spores on their surfaces.
 
-* Cherry leave Visualizer:
-   The client is interested to have a study to visually differentiate a powdery mildew infected cherry leaf and healthy cherry leaf.
-  - Checkbox1 Difference between average image and variability image.
-  - Checkbox2 Differences between average powdery mildew infected and average healthy leaves.
-  - Checkbox3 Image montage.
+* Cherry leave Visualizer
+  - The client is interested to have a study to visually differentiate a powdery mildew infected cherry leaf and healthy cherry leaf.
+  - Checkbox1: Difference between average image and variability image.
+  - Checkbox2: Differences between average powdery mildew infected and average healthy leaves.
+  - Checkbox3: Image montage.
   
 * Mildew detection
   - The client is interested to tell whether a given leaf contains mildew or not.
@@ -62,6 +78,7 @@ Menu on Streamlit Dashboard
   
 * ML Performance Metrics
   - Train, Validation and Test Set: Labels Frequencies
+  - Model History - Accuracy and Losses
 
 
 ## Unfixed Bugs
