@@ -41,20 +41,19 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 ## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-
+* Difficulties to deploy the project on heroku but I found a solution on an alternative plateform Render. Bug fixed and deployment works.
 ## Deployment
-### Heroku
+### Render
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* The project was deployed to Heroku using the following steps.
+* The App live link is: https://mildew-detector.onrender.com
+* The project was deployed to Render using the following steps.
 
-1. Log in to Heroku and create an App
+1. Log in to Render and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-
+4. Select the branch you want to deploy, then click Create Web Service.
+5. Watch the console for some activity, deployment can take up to 15 minutes to complete. Open the deployed site via the link below the WEB SERVICE name.
+   
 
 ## Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries you used in the project and provide example(s) on how you used these libraries.
