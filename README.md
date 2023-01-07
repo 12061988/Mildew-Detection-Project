@@ -19,7 +19,12 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision to validate it (them).
+* Business understanding
+* Data understanding
+* Data preparation
+* Modelling
+* Evaluation
+* Deployment
 
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
